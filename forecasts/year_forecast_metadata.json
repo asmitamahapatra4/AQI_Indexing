@@ -1,0 +1,146 @@
+[
+  {
+    "station": "Ballygunge, Kolkata - WBPCB",
+    "history_start": "2024-01-08",
+    "history_end": "2026-08-30",
+    "history_span_days": 966,
+    "observed_days": 842,
+    "backtest_holdout_days": 322,
+    "chosen_model": "harmonic_k2",
+    "backtest_note": "Model chosen on this same holdout, so its error is slightly optimistic.",
+    "backtest": {
+      "constant_mean": {
+        "mae": 65.47,
+        "rmse": 75.78
+      },
+      "monthly_climatology": {
+        "mae": 31.52,
+        "rmse": 43.12
+      },
+      "harmonic_k2": {
+        "mae": 30.33,
+        "rmse": 39.73
+      },
+      "harmonic_k3": {
+        "mae": 30.91,
+        "rmse": 40.68
+      },
+      "harmonic_k3_trend": {
+        "mae": 32.46,
+        "rmse": 43.26
+      }
+    },
+    "interval": "80% range (10th-90th percentile of backtest errors)",
+    "residual_p10": -51.0,
+    "residual_p90": 39.0,
+    "notes": []
+  },
+  {
+    "station": "Bidhannagar, Kolkata - WBPCB",
+    "history_start": "2024-01-08",
+    "history_end": "2026-08-30",
+    "history_span_days": 966,
+    "observed_days": 931,
+    "backtest_holdout_days": 322,
+    "chosen_model": "harmonic_k3",
+    "backtest_note": "Model chosen on this same holdout, so its error is slightly optimistic.",
+    "backtest": {
+      "constant_mean": {
+        "mae": 46.81,
+        "rmse": 62.41
+      },
+      "monthly_climatology": {
+        "mae": 24.72,
+        "rmse": 37.25
+      },
+      "harmonic_k2": {
+        "mae": 21.64,
+        "rmse": 31.91
+      },
+      "harmonic_k3": {
+        "mae": 21.11,
+        "rmse": 30.91
+      },
+      "harmonic_k3_trend": {
+        "mae": 38.53,
+        "rmse": 45.55
+      }
+    },
+    "interval": "80% range (10th-90th percentile of backtest errors)",
+    "residual_p10": -39.8,
+    "residual_p90": 28.7,
+    "notes": []
+  },
+  {
+    "station": "Fort William, Kolkata - WBPCB",
+    "history_start": "2024-01-08",
+    "history_end": "2026-08-30",
+    "history_span_days": 966,
+    "observed_days": 875,
+    "backtest_holdout_days": 322,
+    "chosen_model": "harmonic_k2",
+    "backtest_note": "Model chosen on this same holdout, so its error is slightly optimistic.",
+    "backtest": {
+      "constant_mean": {
+        "mae": 24.21,
+        "rmse": 27.25
+      },
+      "monthly_climatology": {
+        "mae": 6.74,
+        "rmse": 8.82
+      },
+      "harmonic_k2": {
+        "mae": 5.73,
+        "rmse": 7.69
+      },
+      "harmonic_k3": {
+        "mae": 5.74,
+        "rmse": 7.71
+      },
+      "harmonic_k3_trend": {
+        "mae": 5.78,
+        "rmse": 7.89
+      }
+    },
+    "interval": "80% range (10th-90th percentile of backtest errors)",
+    "residual_p10": -8.2,
+    "residual_p90": 9.0,
+    "notes": []
+  },
+  {
+    "station": "Rabindra Bharati University, Kolkata - WBPCB",
+    "history_start": "2024-01-17",
+    "history_end": "2026-08-30",
+    "history_span_days": 957,
+    "observed_days": 858,
+    "backtest_holdout_days": 319,
+    "chosen_model": "harmonic_k3",
+    "backtest_note": "Model chosen on this same holdout, so its error is slightly optimistic.",
+    "backtest": {
+      "constant_mean": {
+        "mae": 30.77,
+        "rmse": 35.17
+      },
+      "monthly_climatology": {
+        "mae": 8.68,
+        "rmse": 11.28
+      },
+      "harmonic_k2": {
+        "mae": 7.92,
+        "rmse": 10.41
+      },
+      "harmonic_k3": {
+        "mae": 7.83,
+        "rmse": 10.32
+      },
+      "harmonic_k3_trend": {
+        "mae": 8.06,
+        "rmse": 10.5
+      }
+    },
+    "interval": "80% range (10th-90th percentile of backtest errors)",
+    "residual_p10": -12.8,
+    "residual_p90": 11.6,
+    "notes": []
+  }
+]

@@ -1,0 +1,11 @@
+# One place per line. Add a country/state to be precise, e.g. "Springfield, Missouri".
+Delhi, India
+Mumbai, India
+Beijing, China
+London, United Kingdom
+New York, United States
+Tokyo, Japan
+Sydney, Australia
+Cairo, Egypt
+Lagos, Nigeria
+Sao Paulo, Brazil
